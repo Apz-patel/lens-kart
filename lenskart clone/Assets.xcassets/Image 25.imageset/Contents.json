@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "copper-black-full-rim-round-lenskart-studio-indian-accent-lk-e15171-c2-eyeglasses_csvfile-1675939103374-960_960-2.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		695C5A7C29CC9C3D00E51C02 /* KidsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695C5A7A29CC9C3D00E51C02 /* KidsCollectionViewCell.swift */; };
+		695C5A7D29CC9C3D00E51C02 /* KidsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 695C5A7B29CC9C3D00E51C02 /* KidsCollectionViewCell.xib */; };
+		695C5A7F29CC9C5100E51C02 /* KidsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695C5A7E29CC9C5100E51C02 /* KidsViewController.swift */; };
+		69D9906629B63DBA00C47A30 /* MenGlassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9906529B63DBA00C47A30 /* MenGlassesViewController.swift */; };
+		69D9906929B63ECB00C47A30 /* MenGlassesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9906729B63ECB00C47A30 /* MenGlassesCollectionViewCell.swift */; };
+		69D9906A29B63ECB00C47A30 /* MenGlassesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69D9906829B63ECB00C47A30 /* MenGlassesCollectionViewCell.xib */; };
+		C931FEBD29BF900C00350108 /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C931FEBB29BF900C00350108 /* ImagesCollectionViewCell.swift */; };
+		C931FEBE29BF900C00350108 /* ImagesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C931FEBC29BF900C00350108 /* ImagesCollectionViewCell.xib */; };
+		C931FEC229C4CC4800350108 /* KaranJoharCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C931FEC029C4CC4800350108 /* KaranJoharCollectionViewCell.swift */; };
+		C931FEC329C4CC4800350108 /* KaranJoharCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C931FEC129C4CC4800350108 /* KaranJoharCollectionViewCell.xib */; };
+		C931FEC629C6CFE900350108 /* AsSeenOnCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C931FEC429C6CFE900350108 /* AsSeenOnCollectionViewCell.swift */; };
+		C931FEC729C6CFE900350108 /* AsSeenOnCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C931FEC529C6CFE900350108 /* AsSeenOnCollectionViewCell.xib */; };
+		C9424F40299FDF83009D93F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9424F3F299FDF83009D93F0 /* AppDelegate.swift */; };
+		C9424F42299FDF83009D93F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9424F41299FDF83009D93F0 /* SceneDelegate.swift */; };
+		C9424F44299FDF83009D93F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9424F43299FDF83009D93F0 /* ViewController.swift */; };
+		C9424F47299FDF83009D93F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9424F45299FDF83009D93F0 /* Main.storyboard */; };
+		C9424F4C299FDF85009D93F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9424F4A299FDF85009D93F0 /* LaunchScreen.storyboard */; };
+		C9424F57299FDF85009D93F0 /* lenskart_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9424F56299FDF85009D93F0 /* lenskart_cloneTests.swift */; };
+		C9424F61299FDF85009D93F0 /* lenskart_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9424F60299FDF85009D93F0 /* lenskart_cloneUITests.swift */; };
+		C9424F63299FDF85009D93F0 /* lenskart_cloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9424F62299FDF85009D93F0 /* lenskart_cloneUITestsLaunchTests.swift */; };
+		C97834B529CC03DC00F3B3A1 /* LensCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97834B329CC03DC00F3B3A1 /* LensCollectionViewCell.swift */; };
+		C97834B629CC03DC00F3B3A1 /* LensCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97834B429CC03DC00F3B3A1 /* LensCollectionViewCell.xib */; };
+		C97834B929CCA94900F3B3A1 /* KiaraCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97834B729CCA94900F3B3A1 /* KiaraCollectionViewCell.swift */; };
+		C97834BA29CCA94900F3B3A1 /* KiaraCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97834B829CCA94900F3B3A1 /* KiaraCollectionViewCell.xib */; };
+		C97834BD29CCED5900F3B3A1 /* MenGlasses2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97834BB29CCED5900F3B3A1 /* MenGlasses2CollectionViewCell.swift */; };
+		C97834BE29CCED5900F3B3A1 /* MenGlasses2CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97834BC29CCED5900F3B3A1 /* MenGlasses2CollectionViewCell.xib */; };
+		C97B020D299FF68B00A95FE6 /* LoginByPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97B020C299FF68B00A95FE6 /* LoginByPhoneViewController.swift */; };
+		C97B020F29A02A2C00A95FE6 /* OtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97B020E29A02A2C00A95FE6 /* OtpViewController.swift */; };
+		C97B021129A5245E00A95FE6 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97B021029A5245E00A95FE6 /* TabbarViewController.swift */; };
+		C97B021329A7280B00A95FE6 /* FavoutiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97B021229A7280B00A95FE6 /* FavoutiteViewController.swift */; };
+		C97B021629AD111500A95FE6 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97B021429AD111500A95FE6 /* ProfileTableViewCell.swift */; };
+		C97B021729AD111500A95FE6 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97B021529AD111500A95FE6 /* ProfileTableViewCell.xib */; };
+		C97B021929AD11AF00A95FE6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97B021829AD11AF00A95FE6 /* ProfileViewController.swift */; };
+		C9B5066D29AE64AB00EC73D1 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B5066C29AE64AB00EC73D1 /* HomePageViewController.swift */; };
+		C9B5070429B2584E00EC73D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B5070329B2584E00EC73D1 /* Assets.xcassets */; };
+		C9D04BF829CFF50A00C734A8 /* LastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D04BF629CFF50A00C734A8 /* LastCollectionViewCell.swift */; };
+		C9D04BF929CFF50A00C734A8 /* LastCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9D04BF729CFF50A00C734A8 /* LastCollectionViewCell.xib */; };
+		C9D04BFC29CFFAA400C734A8 /* KnowYourLensesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D04BFA29CFFAA400C734A8 /* KnowYourLensesCollectionViewCell.swift */; };
+		C9D04BFD29CFFAA400C734A8 /* KnowYourLensesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9D04BFB29CFFAA400C734A8 /* KnowYourLensesCollectionViewCell.xib */; };
+		C9D04C0129D1F5DF00C734A8 /* ApiViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D04C0029D1F5DF00C734A8 /* ApiViewControler.swift */; };
+		C9D04C0329D1F64900C734A8 /* ApiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D04C0229D1F64900C734A8 /* ApiTableViewCell.swift */; };
+		C9D04C0629D1F88600C734A8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C9D04C0529D1F88600C734A8 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9424F53299FDF85009D93F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9424F34299FDF83009D93F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9424F3B299FDF83009D93F0;
+			remoteInfo = "lenskart clone";
+		};
+		C9424F5D299FDF85009D93F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9424F34299FDF83009D93F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9424F3B299FDF83009D93F0;
+			remoteInfo = "lenskart clone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		695C5A7A29CC9C3D00E51C02 /* KidsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsCollectionViewCell.swift; sourceTree = "<group>"; };
+		695C5A7B29CC9C3D00E51C02 /* KidsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KidsCollectionViewCell.xib; sourceTree = "<group>"; };
+		695C5A7E29CC9C5100E51C02 /* KidsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsViewController.swift; sourceTree = "<group>"; };
+		69D9906529B63DBA00C47A30 /* MenGlassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenGlassesViewController.swift; sourceTree = "<group>"; };
+		69D9906729B63ECB00C47A30 /* MenGlassesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenGlassesCollectionViewCell.swift; sourceTree = "<group>"; };
+		69D9906829B63ECB00C47A30 /* MenGlassesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenGlassesCollectionViewCell.xib; sourceTree = "<group>"; };
+		C931FEBB29BF900C00350108 /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		C931FEBC29BF900C00350108 /* ImagesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesCollectionViewCell.xib; sourceTree = "<group>"; };
+		C931FEC029C4CC4800350108 /* KaranJoharCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaranJoharCollectionViewCell.swift; sourceTree = "<group>"; };
+		C931FEC129C4CC4800350108 /* KaranJoharCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KaranJoharCollectionViewCell.xib; sourceTree = "<group>"; };
+		C931FEC429C6CFE900350108 /* AsSeenOnCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsSeenOnCollectionViewCell.swift; sourceTree = "<group>"; };
+		C931FEC529C6CFE900350108 /* AsSeenOnCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AsSeenOnCollectionViewCell.xib; sourceTree = "<group>"; };
+		C9424F3C299FDF83009D93F0 /* lenskart clone 123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lenskart clone 123.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9424F3F299FDF83009D93F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9424F41299FDF83009D93F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9424F43299FDF83009D93F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9424F46299FDF83009D93F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9424F4B299FDF85009D93F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9424F4D299FDF85009D93F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9424F52299FDF85009D93F0 /* lenskart clone 123Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lenskart clone 123Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9424F56299FDF85009D93F0 /* lenskart_cloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lenskart_cloneTests.swift; sourceTree = "<group>"; };
+		C9424F5C299FDF85009D93F0 /* lenskart clone 123UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lenskart clone 123UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9424F60299FDF85009D93F0 /* lenskart_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lenskart_cloneUITests.swift; sourceTree = "<group>"; };
+		C9424F62299FDF85009D93F0 /* lenskart_cloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lenskart_cloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C97834B329CC03DC00F3B3A1 /* LensCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensCollectionViewCell.swift; sourceTree = "<group>"; };
+		C97834B429CC03DC00F3B3A1 /* LensCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LensCollectionViewCell.xib; sourceTree = "<group>"; };
+		C97834B729CCA94900F3B3A1 /* KiaraCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiaraCollectionViewCell.swift; sourceTree = "<group>"; };
+		C97834B829CCA94900F3B3A1 /* KiaraCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KiaraCollectionViewCell.xib; sourceTree = "<group>"; };
+		C97834BB29CCED5900F3B3A1 /* MenGlasses2CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenGlasses2CollectionViewCell.swift; sourceTree = "<group>"; };
+		C97834BC29CCED5900F3B3A1 /* MenGlasses2CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenGlasses2CollectionViewCell.xib; sourceTree = "<group>"; };
+		C97B020C299FF68B00A95FE6 /* LoginByPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginByPhoneViewController.swift; sourceTree = "<group>"; };
+		C97B020E29A02A2C00A95FE6 /* OtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpViewController.swift; sourceTree = "<group>"; };
+		C97B021029A5245E00A95FE6 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		C97B021229A7280B00A95FE6 /* FavoutiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoutiteViewController.swift; sourceTree = "<group>"; };
+		C97B021429AD111500A95FE6 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		C97B021529AD111500A95FE6 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		C97B021829AD11AF00A95FE6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C9B5066C29AE64AB00EC73D1 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		C9B5070329B2584E00EC73D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9D04BF629CFF50A00C734A8 /* LastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastCollectionViewCell.swift; sourceTree = "<group>"; };
+		C9D04BF729CFF50A00C734A8 /* LastCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LastCollectionViewCell.xib; sourceTree = "<group>"; };
+		C9D04BFA29CFFAA400C734A8 /* KnowYourLensesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowYourLensesCollectionViewCell.swift; sourceTree = "<group>"; };
+		C9D04BFB29CFFAA400C734A8 /* KnowYourLensesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KnowYourLensesCollectionViewCell.xib; sourceTree = "<group>"; };
+		C9D04C0029D1F5DF00C734A8 /* ApiViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiViewControler.swift; sourceTree = "<group>"; };
+		C9D04C0229D1F64900C734A8 /* ApiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9424F39299FDF83009D93F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D04C0629D1F88600C734A8 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9424F4F299FDF85009D93F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9424F59299FDF85009D93F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9424F33299FDF83009D93F0 = {
+			isa = PBXGroup;
+			children = (
+				C9424F3E299FDF83009D93F0 /* lenskart clone */,
+				C9424F55299FDF85009D93F0 /* lenskart cloneTests */,
+				C9424F5F299FDF85009D93F0 /* lenskart cloneUITests */,
+				C9424F3D299FDF83009D93F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9424F3D299FDF83009D93F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9424F3C299FDF83009D93F0 /* lenskart clone 123.app */,
+				C9424F52299FDF85009D93F0 /* lenskart clone 123Tests.xctest */,
+				C9424F5C299FDF85009D93F0 /* lenskart clone 123UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9424F3E299FDF83009D93F0 /* lenskart clone */ = {
+			isa = PBXGroup;
+			children = (
+				C97B021029A5245E00A95FE6 /* TabbarViewController.swift */,
+				C97B021829AD11AF00A95FE6 /* ProfileViewController.swift */,
+				C97B021229A7280B00A95FE6 /* FavoutiteViewController.swift */,
+				C97B020C299FF68B00A95FE6 /* LoginByPhoneViewController.swift */,
+				C97B021529AD111500A95FE6 /* ProfileTableViewCell.xib */,
+				C97B021429AD111500A95FE6 /* ProfileTableViewCell.swift */,
+				C97B020E29A02A2C00A95FE6 /* OtpViewController.swift */,
+				C9424F3F299FDF83009D93F0 /* AppDelegate.swift */,
+				C9424F41299FDF83009D93F0 /* SceneDelegate.swift */,
+				C9424F43299FDF83009D93F0 /* ViewController.swift */,
+				C931FEC429C6CFE900350108 /* AsSeenOnCollectionViewCell.swift */,
+				C931FEC529C6CFE900350108 /* AsSeenOnCollectionViewCell.xib */,
+				C9424F45299FDF83009D93F0 /* Main.storyboard */,
+				695C5A7E29CC9C5100E51C02 /* KidsViewController.swift */,
+				C9D04C0029D1F5DF00C734A8 /* ApiViewControler.swift */,
+				C9D04C0229D1F64900C734A8 /* ApiTableViewCell.swift */,
+				695C5A7A29CC9C3D00E51C02 /* KidsCollectionViewCell.swift */,
+				695C5A7B29CC9C3D00E51C02 /* KidsCollectionViewCell.xib */,
+				69D9906529B63DBA00C47A30 /* MenGlassesViewController.swift */,
+				69D9906729B63ECB00C47A30 /* MenGlassesCollectionViewCell.swift */,
+				69D9906829B63ECB00C47A30 /* MenGlassesCollectionViewCell.xib */,
+				C9B5070329B2584E00EC73D1 /* Assets.xcassets */,
+				C9D04BFA29CFFAA400C734A8 /* KnowYourLensesCollectionViewCell.swift */,
+				C9D04BFB29CFFAA400C734A8 /* KnowYourLensesCollectionViewCell.xib */,
+				C9D04BF629CFF50A00C734A8 /* LastCollectionViewCell.swift */,
+				C9D04BF729CFF50A00C734A8 /* LastCollectionViewCell.xib */,
+				C97834BB29CCED5900F3B3A1 /* MenGlasses2CollectionViewCell.swift */,
+				C97834BC29CCED5900F3B3A1 /* MenGlasses2CollectionViewCell.xib */,
+				C9B5066C29AE64AB00EC73D1 /* HomePageViewController.swift */,
+				C931FEBB29BF900C00350108 /* ImagesCollectionViewCell.swift */,
+				C931FEBC29BF900C00350108 /* ImagesCollectionViewCell.xib */,
+				C931FEC029C4CC4800350108 /* KaranJoharCollectionViewCell.swift */,
+				C931FEC129C4CC4800350108 /* KaranJoharCollectionViewCell.xib */,
+				C9424F4A299FDF85009D93F0 /* LaunchScreen.storyboard */,
+				C97834B329CC03DC00F3B3A1 /* LensCollectionViewCell.swift */,
+				C97834B429CC03DC00F3B3A1 /* LensCollectionViewCell.xib */,
+				C9424F4D299FDF85009D93F0 /* Info.plist */,
+				C97834B729CCA94900F3B3A1 /* KiaraCollectionViewCell.swift */,
+				C97834B829CCA94900F3B3A1 /* KiaraCollectionViewCell.xib */,
+			);
+			path = "lenskart clone";
+			sourceTree = "<group>";
+		};
+		C9424F55299FDF85009D93F0 /* lenskart cloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9424F56299FDF85009D93F0 /* lenskart_cloneTests.swift */,
+			);
+			path = "lenskart cloneTests";
+			sourceTree = "<group>";
+		};
+		C9424F5F299FDF85009D93F0 /* lenskart cloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9424F60299FDF85009D93F0 /* lenskart_cloneUITests.swift */,
+				C9424F62299FDF85009D93F0 /* lenskart_cloneUITestsLaunchTests.swift */,
+			);
+			path = "lenskart cloneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9424F3B299FDF83009D93F0 /* lenskart clone 123 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9424F66299FDF85009D93F0 /* Build configuration list for PBXNativeTarget "lenskart clone 123" */;
+			buildPhases = (
+				C9424F38299FDF83009D93F0 /* Sources */,
+				C9424F39299FDF83009D93F0 /* Frameworks */,
+				C9424F3A299FDF83009D93F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lenskart clone 123";
+			packageProductDependencies = (
+				C9D04C0529D1F88600C734A8 /* Alamofire */,
+			);
+			productName = "lenskart clone";
+			productReference = C9424F3C299FDF83009D93F0 /* lenskart clone 123.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9424F51299FDF85009D93F0 /* lenskart clone 123Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9424F69299FDF85009D93F0 /* Build configuration list for PBXNativeTarget "lenskart clone 123Tests" */;
+			buildPhases = (
+				C9424F4E299FDF85009D93F0 /* Sources */,
+				C9424F4F299FDF85009D93F0 /* Frameworks */,
+				C9424F50299FDF85009D93F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9424F54299FDF85009D93F0 /* PBXTargetDependency */,
+			);
+			name = "lenskart clone 123Tests";
+			productName = "lenskart cloneTests";
+			productReference = C9424F52299FDF85009D93F0 /* lenskart clone 123Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9424F5B299FDF85009D93F0 /* lenskart clone 123UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9424F6C299FDF85009D93F0 /* Build configuration list for PBXNativeTarget "lenskart clone 123UITests" */;
+			buildPhases = (
+				C9424F58299FDF85009D93F0 /* Sources */,
+				C9424F59299FDF85009D93F0 /* Frameworks */,
+				C9424F5A299FDF85009D93F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9424F5E299FDF85009D93F0 /* PBXTargetDependency */,
+			);
+			name = "lenskart clone 123UITests";
+			productName = "lenskart cloneUITests";
+			productReference = C9424F5C299FDF85009D93F0 /* lenskart clone 123UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9424F34299FDF83009D93F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C9424F3B299FDF83009D93F0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C9424F51299FDF85009D93F0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C9424F3B299FDF83009D93F0;
+					};
+					C9424F5B299FDF85009D93F0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C9424F3B299FDF83009D93F0;
+					};
+				};
+			};
+			buildConfigurationList = C9424F37299FDF83009D93F0 /* Build configuration list for PBXProject "lenskart clone 123" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9424F33299FDF83009D93F0;
+			packageReferences = (
+				C9D04C0429D1F88600C734A8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = C9424F3D299FDF83009D93F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9424F3B299FDF83009D93F0 /* lenskart clone 123 */,
+				C9424F51299FDF85009D93F0 /* lenskart clone 123Tests */,
+				C9424F5B299FDF85009D93F0 /* lenskart clone 123UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9424F3A299FDF83009D93F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9424F4C299FDF85009D93F0 /* LaunchScreen.storyboard in Resources */,
+				695C5A7D29CC9C3D00E51C02 /* KidsCollectionViewCell.xib in Resources */,
+				C9D04BFD29CFFAA400C734A8 /* KnowYourLensesCollectionViewCell.xib in Resources */,
+				C97834BE29CCED5900F3B3A1 /* MenGlasses2CollectionViewCell.xib in Resources */,
+				C97B021729AD111500A95FE6 /* ProfileTableViewCell.xib in Resources */,
+				C931FEC729C6CFE900350108 /* AsSeenOnCollectionViewCell.xib in Resources */,
+				C931FEC329C4CC4800350108 /* KaranJoharCollectionViewCell.xib in Resources */,
+				69D9906A29B63ECB00C47A30 /* MenGlassesCollectionViewCell.xib in Resources */,
+				C9B5070429B2584E00EC73D1 /* Assets.xcassets in Resources */,
+				C931FEBE29BF900C00350108 /* ImagesCollectionViewCell.xib in Resources */,
+				C97834BA29CCA94900F3B3A1 /* KiaraCollectionViewCell.xib in Resources */,
+				C97834B629CC03DC00F3B3A1 /* LensCollectionViewCell.xib in Resources */,
+				C9D04BF929CFF50A00C734A8 /* LastCollectionViewCell.xib in Resources */,
+				C9424F47299FDF83009D93F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9424F50299FDF85009D93F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9424F5A299FDF85009D93F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9424F38299FDF83009D93F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97834B529CC03DC00F3B3A1 /* LensCollectionViewCell.swift in Sources */,
+				695C5A7F29CC9C5100E51C02 /* KidsViewController.swift in Sources */,
+				C97B020F29A02A2C00A95FE6 /* OtpViewController.swift in Sources */,
+				C97B021629AD111500A95FE6 /* ProfileTableViewCell.swift in Sources */,
+				C9D04BF829CFF50A00C734A8 /* LastCollectionViewCell.swift in Sources */,
+				C931FEC229C4CC4800350108 /* KaranJoharCollectionViewCell.swift in Sources */,
+				C9D04C0129D1F5DF00C734A8 /* ApiViewControler.swift in Sources */,
+				C97B020D299FF68B00A95FE6 /* LoginByPhoneViewController.swift in Sources */,
+				C97B021129A5245E00A95FE6 /* TabbarViewController.swift in Sources */,
+				C97B021329A7280B00A95FE6 /* FavoutiteViewController.swift in Sources */,
+				C97834BD29CCED5900F3B3A1 /* MenGlasses2CollectionViewCell.swift in Sources */,
+				69D9906629B63DBA00C47A30 /* MenGlassesViewController.swift in Sources */,
+				C9424F44299FDF83009D93F0 /* ViewController.swift in Sources */,
+				695C5A7C29CC9C3D00E51C02 /* KidsCollectionViewCell.swift in Sources */,
+				C97834B929CCA94900F3B3A1 /* KiaraCollectionViewCell.swift in Sources */,
+				C97B021929AD11AF00A95FE6 /* ProfileViewController.swift in Sources */,
+				C9424F40299FDF83009D93F0 /* AppDelegate.swift in Sources */,
+				C9B5066D29AE64AB00EC73D1 /* HomePageViewController.swift in Sources */,
+				C931FEC629C6CFE900350108 /* AsSeenOnCollectionViewCell.swift in Sources */,
+				C9D04BFC29CFFAA400C734A8 /* KnowYourLensesCollectionViewCell.swift in Sources */,
+				C9424F42299FDF83009D93F0 /* SceneDelegate.swift in Sources */,
+				C931FEBD29BF900C00350108 /* ImagesCollectionViewCell.swift in Sources */,
+				C9D04C0329D1F64900C734A8 /* ApiTableViewCell.swift in Sources */,
+				69D9906929B63ECB00C47A30 /* MenGlassesCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9424F4E299FDF85009D93F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9424F57299FDF85009D93F0 /* lenskart_cloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9424F58299FDF85009D93F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9424F63299FDF85009D93F0 /* lenskart_cloneUITestsLaunchTests.swift in Sources */,
+				C9424F61299FDF85009D93F0 /* lenskart_cloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9424F54299FDF85009D93F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9424F3B299FDF83009D93F0 /* lenskart clone 123 */;
+			targetProxy = C9424F53299FDF85009D93F0 /* PBXContainerItemProxy */;
+		};
+		C9424F5E299FDF85009D93F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9424F3B299FDF83009D93F0 /* lenskart clone 123 */;
+			targetProxy = C9424F5D299FDF85009D93F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9424F45299FDF83009D93F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9424F46299FDF83009D93F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9424F4A299FDF85009D93F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9424F4B299FDF85009D93F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9424F64299FDF85009D93F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9424F65299FDF85009D93F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9424F67299FDF85009D93F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "lenskart clone/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "practise.lenskart-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9424F68299FDF85009D93F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "lenskart clone/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "practise.lenskart-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9424F6A299FDF85009D93F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "practise.lenskart-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lenskart clone 123.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lenskart clone 123";
+			};
+			name = Debug;
+		};
+		C9424F6B299FDF85009D93F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "practise.lenskart-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lenskart clone 123.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lenskart clone 123";
+			};
+			name = Release;
+		};
+		C9424F6D299FDF85009D93F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "practise.lenskart-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "lenskart clone";
+			};
+			name = Debug;
+		};
+		C9424F6E299FDF85009D93F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "practise.lenskart-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "lenskart clone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9424F37299FDF83009D93F0 /* Build configuration list for PBXProject "lenskart clone 123" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9424F64299FDF85009D93F0 /* Debug */,
+				C9424F65299FDF85009D93F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9424F66299FDF85009D93F0 /* Build configuration list for PBXNativeTarget "lenskart clone 123" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9424F67299FDF85009D93F0 /* Debug */,
+				C9424F68299FDF85009D93F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9424F69299FDF85009D93F0 /* Build configuration list for PBXNativeTarget "lenskart clone 123Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9424F6A299FDF85009D93F0 /* Debug */,
+				C9424F6B299FDF85009D93F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9424F6C299FDF85009D93F0 /* Build configuration list for PBXNativeTarget "lenskart clone 123UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9424F6D299FDF85009D93F0 /* Debug */,
+				C9424F6E299FDF85009D93F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C9D04C0429D1F88600C734A8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9D04C0529D1F88600C734A8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9D04C0429D1F88600C734A8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C9424F34299FDF83009D93F0 /* Project object */;
+}
